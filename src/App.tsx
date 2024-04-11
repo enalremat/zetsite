@@ -1,15 +1,27 @@
-import Layout from '@/components/Layout'
+// import { createContext, useState } from 'react'
+// import Header from './components/Header'
+// import Post from './components/Post'
 
-import './App.css'
+// // Create Context
+// export const ThemeContext = createContext()
 
-// import { useState } from 'react'
+// function App() {
+// 	const [isDark, setIsDark] = useState(true)
 
-const App = () => {
-	return (
-		<Layout>
-			<p>App</p>
-		</Layout>
-	)
-}
+// 	const value = {
+// 		isDark,
+// 		setIsDark,
+// 	}
+
+// 	return (
+// 		<ThemeContext.Provider value={value}>
+// 			<Header />
+// 			<Post />
+// 		</ThemeContext.Provider>
+// 	)
+// }
+
+// export default App
+const App = () => <div>App</div>
 
 export default App
