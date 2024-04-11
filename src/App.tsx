@@ -31,7 +31,7 @@ const App = () => {
 		<div>
 			<h1>hello</h1>
 			<button type="button" onClick={() => setCount(count + 1)}>
-				Click Me! {count}
+				Count is: {count}
 			</button>
 		</div>
 	)
