@@ -2,6 +2,8 @@
 // import Header from './components/Header'
 // import Post from './components/Post'
 
+import { useState } from 'react'
+
 // // Create Context
 // export const ThemeContext = createContext()
 
@@ -22,6 +24,17 @@
 // }
 
 // export default App
-const App = () => <div>App</div>
+const App = () => {
+	const [count, setCount] = useState(0)
+
+	return (
+		<div>
+			<h1>hello</h1>
+			<button type="button" onClick={() => setCount(count + 1)}>
+				Click Me!
+			</button>
+		</div>
+	)
+}
 
 export default App
